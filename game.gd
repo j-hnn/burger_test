@@ -9,7 +9,7 @@ var inside = false
 var pressed = false
 var food_number = 0
 var food = ""
-s
+
 func _ready():
 	pass
 
@@ -46,11 +46,10 @@ func _on_burger_bottom_area_exited(area):
 
 func stack_or_not():
 	if inside == true and pressed == true:
-		if food_number <= len(food_scenes) - 1:
+		if food_number < 1:
 			food_number += 1
-		else:
+		elif food_number == 1:
 			food_number == 0
-		print("yay")
 
 	else:
 		get_tree().reload_current_scene()
