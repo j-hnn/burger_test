@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://bd3ib3xwdyxp4"]
+
+[ext_resource type="Script" path="res://food1.gd" id="1_rbh1m"]
+[ext_resource type="Texture2D" uid="uid://deekokjja6ef5" path="res://Burger Topper Assets/Burger Parts/BigCheese.png" id="2_phhuq"]
+
+[node name="food1" type="Area2D"]
+script = ExtResource("1_rbh1m")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_phhuq")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(0, -40, 18, -38, 40, -32, 63, -26, 75, -21, 93, -20, 118, -17, 144, -12, 171, -7, 188, -4, 187, -1, 176, 3, 159, 10, 143, 15, 118, 23, 97, 27, 77, 33, 7, 51, -9, 46, -30, 42, -47, 39, -71, 34, -97, 26, -122, 19, -151, 11, -171, 5, -183, 1, -183, -2, -177, -5, -164, -6, -153, -9, -133, -11, -125, -13, -110, -15, -97, -15, -84, -17, -76, -20, -68, -23, -53, -29, -38, -34, -24, -38, -9, -39)
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+position = Vector2(0, -54)
+
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]

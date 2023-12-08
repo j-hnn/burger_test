@@ -1,0 +1,16 @@
+Button
+Node2D
+Timer
+AnimatedSprite2D
+VisibleOnScreenNotifier2D
+CollisionPolygon2D
+Sprite2D
+Area2D
+CollisionShape2D
+Marker2D
+TextureRect
+ColorRect
+Control
+Label
+CanvasLayer
+HBoxContainer

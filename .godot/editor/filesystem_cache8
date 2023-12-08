@@ -1,0 +1,32 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1701987533
+game.tscn::PackedScene::8537884324251779904::1701987533::0::1::::<><>::uid://crktu4p1wg27v::::res://Burger Topper Assets/Burger Parts/BunBottom.png<>res://game.gd<>uid://bd3ib3xwdyxp4::::res://food_1.tscn
+food1.gd::GDScript::-1::1701987520::0::1::::<>Area2D<>::
+food_1.tscn::PackedScene::2655278820645772903::1701987533::0::1::::<><>::res://food1.gd<>uid://deekokjja6ef5::::res://Burger Topper Assets/Burger Parts/BigCheese.png
+game.gd::GDScript::-1::1701987533::0::1::::<>Node2D<>::
+::res://Burger Topper Assets/::1701986822
+BurgerComplete.png::CompressedTexture2D::7093330092982125630::1701986819::1701986819::1::::<><>::
+Button.png::CompressedTexture2D::8038124886600836400::1701986819::1701986819::1::::<><>::
+ColorPalette.png::CompressedTexture2D::7206984831363521544::1701986819::1701986820::1::::<><>::
+TravisIdle.png::CompressedTexture2D::5577211014084835207::1701986819::1701986819::1::::<><>::
+::res://Burger Topper Assets/Burger Parts/::1701986821
+Bacon.png::CompressedTexture2D::4781880111472932297::1701986819::1701986820::1::::<><>::
+BigCheese.png::CompressedTexture2D::7448907647236888240::1701986819::1701986820::1::::<><>::
+BunBottom.png::CompressedTexture2D::5987886373074220113::1701986819::1701986820::1::::<><>::
+BunTop.png::CompressedTexture2D::983365495422850148::1701986819::1701986820::1::::<><>::
+Lettuce.png::CompressedTexture2D::1177943697576579546::1701986819::1701986820::1::::<><>::
+Onions.png::CompressedTexture2D::5891881645783633470::1701986819::1701986820::1::::<><>::
+Patty.png::CompressedTexture2D::2384775675238035561::1701986819::1701986820::1::::<><>::
+SmallCheese.png::CompressedTexture2D::4449336558101086667::1701986819::1701986820::1::::<><>::
+Tomato.png::CompressedTexture2D::2790362232918630476::1701986819::1701986820::1::::<><>::
+::res://Burger Topper Assets/TravisJump/::1701988082
+travisjump1.png::CompressedTexture2D::7900963232271045594::1701986819::1701986820::1::::<><>::
+travisjump2.png::CompressedTexture2D::7749744986444046014::1701986819::1701986820::1::::<><>::
+travisjump3.png::CompressedTexture2D::7198551197338411754::1701986819::1701986819::1::::<><>::
+travisjump4.png::CompressedTexture2D::143855206420796822::1701986819::1701986819::1::::<><>::
+travisjump5.png::CompressedTexture2D::8498277599104188508::1701986819::1701986819::1::::<><>::
+travisjump6.png::CompressedTexture2D::5767255102388682362::1701986819::1701986819::1::::<><>::
+travisjump7.png::CompressedTexture2D::8698877781249332760::1701986819::1701986819::1::::<><>::
+travisjump8.png::CompressedTexture2D::1213682472200107518::1701986819::1701986819::1::::<><>::
+travisjump9.png::CompressedTexture2D::6043785780001562404::1701986819::1701986819::1::::<><>::
+travisjump-removebg-preview.png::CompressedTexture2D::994187687896954859::1701988082::1701988082::1::::<><>::

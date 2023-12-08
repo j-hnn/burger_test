@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bl1vdc0nvqlry"]
+
+[ext_resource type="PackedScene" uid="uid://bd3ib3xwdyxp4" path="res://food_1.tscn" id="1_oqpwi"]
+[ext_resource type="Texture2D" uid="uid://88g53o2nbmwv" path="res://Burger Topper Assets/Burger Parts/Patty.png" id="2_fv4qe"]
+
+[node name="food2" instance=ExtResource("1_oqpwi")]
+speed = 200
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_fv4qe")
+
+[node name="CollisionPolygon2D" parent="." index="1"]
+polygon = PackedVector2Array(-40, -59, -13, -59, -4, -61, 6, -61, 14, -61, 36, -60, 56, -53, 74, -55, 93, -48, 110, -42, 131, -30, 154, -8, 157, 15, 146, 30, 118, 46, 96, 54, 47, 57, -15, 58, -72, 59, -109, 47, -143, 26, -160, 18, -161, 7, -156, -15, -145, -23, -130, -32, -104, -47, -96, -44, -59, -49, -41, -57)
+
+[node name="VisibleOnScreenNotifier2D" parent="." index="2"]
+position = Vector2(0, -73)
